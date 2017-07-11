@@ -35,4 +35,13 @@ pla.loser_form:
     _title: 'Select a Loser: no teams on bye week 1'
   requirements:
     _access: 'TRUE'
+    
+    
+pla.playoff_form:
+  path: '/select/playoff'
+  defaults:
+    _form: '\Drupal\pla\Form\PlayoffForm'
+    _title: 'Select a Playoff team'
+  requirements:
+    _access: 'TRUE'
   
