@@ -1,0 +1,14 @@
+{
+  "name": "drupal/pla",
+  "type": "drupal-module",
+  "description": "Add the ability for one user to have multiple entries",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/pla",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/pla",
+    "source": "http://cgit.drupalcode.org/pla"
+  },
+  "require": { }
+}

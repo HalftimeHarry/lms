@@ -1,0 +1,38 @@
+
+pla.master_form:
+  path: '/pla/form/master'
+  defaults:
+    _form: '\Drupal\pla\Form\MasterForm'
+    _title: 'MasterForm'
+  requirements:
+    _access: 'TRUE'
+  
+
+pla.multi_form:
+  path: '/admin/config/pla/multi'
+  defaults:
+    _form: '\Drupal\pla\Form\MultiForm'
+    _title: 'MultiForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+
+pla.game_form:
+  path: '/select/winner'
+  defaults:
+    _form: '\Drupal\pla\Form\GameForm'
+    _title: 'Select a Winner: no teams on bye week 1'
+  requirements:
+    _access: 'TRUE'
+    
+    
+pla.loser_form:
+  path: '/select/loser'
+  defaults:
+    _form: '\Drupal\pla\Form\LoserForm'
+    _title: 'Select a Loser: no teams on bye week 1'
+  requirements:
+    _access: 'TRUE'
+  

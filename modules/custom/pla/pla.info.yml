@@ -1,0 +1,5 @@
+name: pla
+type: module
+description: Add the ability for one user to have multiple entries
+core: 8.x
+package: Custom

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+ module:
+   - baz
+id: translate_node_to_all_configured_languages
+label: 'Translate node with Baz'
+type: node
+plugin: baz_translate_node_action

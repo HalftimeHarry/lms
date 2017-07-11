@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains pla.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function pla_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the pla module.
+    case 'help.page.pla':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Add the ability for one user to have multiple entries') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function pla_theme() {
+  return [
+    'pla' => [
+      'template' => 'pla',
+      'render element' => 'children',
+    ],
+  ];
+}

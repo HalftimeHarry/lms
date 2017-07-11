@@ -1,0 +1,5 @@
+services:
+  pla.teamlist:
+    class: Drupal\pla\TeamListService
+    arguments: []
+

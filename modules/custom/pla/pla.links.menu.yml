@@ -1,0 +1,7 @@
+pla.multi_form:
+  title: 'MultiForm'
+  route_name: pla.multi_form
+  description: 'New Multi step form'
+  parent: system.admin_config_system
+  weight: 99
+
